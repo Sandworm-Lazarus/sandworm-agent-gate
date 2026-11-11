@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "project": "sandworm-agent-gate",
+  "checked_at": "2026-11-11T11:03:42.855Z",
+  "runtime": "v24.22.1",
+  "result": "pass",
+  "tests": 34,
+  "passed": 34,
+  "failed": 0,
+  "source_manifest_sha256": "2b417e3fbaa05d3faeda8c573702f71e55fdc05784f074a0254b5e1b19830bb2",
+  "files": [
+    {
+      "path": "dist/app.js",
+      "sha256": "c1abf58c9b8cbb21714c948a348bd379b1c4a48bf2521f32c85ee085d6e719ad"
+    },
+    {
+      "path": "dist/engine.js",
+      "sha256": "bfb8edd2898f1ebebc00fdbec37575517ab2d48f28c5683876953eb5302194c3"
+    },
+    {
+      "path": "dist/fonts/Anuphan-OFL.txt",
+      "sha256": "cbc57ac0dddda1b70f246a16358fc3c2a32628a23a6d10ef64f746141d3fb159"
+    },
+    {
+      "path": "dist/fonts/Chakra-Petch-OFL.txt",
+      "sha256": "13831d02389d917d22fcfa6c79f98f8acbf61d230add0e73a4d4dc5f3bfb9e56"
+    },
+    {
+      "path": "dist/fonts/JetBrains-Mono-OFL.txt",
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+    },
+    {
+      "path": "dist/gate.css",
+      "sha256": "6887784c0db9efc81637a9babdccdb4a9d22e9cc7d6a4ed74f3e0e8247a1d360"
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "2d64f91e6489d68fd5d62dadeca603050e53bc2e04f5d14a3482544745018b28"
+    },
+    {
+      "path": "dist/mark.svg",
+      "sha256": "ee731288307e122e75090d2b39fd735667292e8b069b430b8d760a2a3c3cd5ac"
+    },
+    {
+      "path": "dist/network.svg",
+      "sha256": "31596a6bbc4dea95c4abc8edd7b98bd9f00bad7ef797681de1b0574cb80f0e38"
+    },
+    {
+      "path": "dist/styles.css",
+      "sha256": "9c1405a7272fc90d6b69c7fa921725a0fdef7419a7b642055a1d88635ef1583e"
+    },
+    {
+      "path": "tests/controller.test.cjs",
+      "sha256": "dc8ea7535639d93fe7299e3160bb231f99b1944c374472f4f9e58481bcecd8ce"
+    },
+    {
+      "path": "tests/engine.test.cjs",
+      "sha256": "6aa73eb037ca3aa46176e5e888bf7734a5541c045431554634f23002e52dcfa0"
+    },
+    {
+      "path": "examples/calls.json",
+      "sha256": "dc33a1239a3e9a56a2ddc4853f6d93743f059532b88321a6de9aa7787f681d09"
+    },
+    {
+      "path": "examples/expected-audit.json",
+      "sha256": "769a7902bc57d5900f88d4d44f72d607a6a85022e8cec505e9477c195a548ebe"
+    },
+    {
+      "path": "examples/policy.json",
+      "sha256": "4b4bd9d6a38624c0212aa643a5f5637d1ed89f11fefe0fb5489e566368f44c3a"
+    },
+    {
+      "path": "scripts/audit.cjs",
+      "sha256": "df71286a388e9846bbf896baed7a632a7fdaaf6b008f345718f13947aad1287a"
+    },
+    {
+      "path": "scripts/validate.cjs",
+      "sha256": "621742105969e8a8fdba38dc87436a75e5dd5b134efd27b6094f93a7922270e2"
+    },
+    {
+      "path": "scripts/verify.cjs",
+      "sha256": "69630303dd2a7cb483d5ab02cfb61f9b9cd20981c45882dbf07a0ce0e30f5c6c"
+    }
+  ],
+  "note": "Local execution only. SHA-256 detects changed bytes, not authenticity or a security certification. Hosted CI status is separate."
+}

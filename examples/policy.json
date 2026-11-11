@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "maxCostMicrousd": 50000,
+  "tools": [
+    {
+      "name": "docs.read",
+      "actions": [
+        "read"
+      ],
+      "resources": [
+        {
+          "type": "prefix",
+          "value": "/workspace/docs"
+        }
+      ],
+      "maxCostMicrousd": 10000,
+      "requireApproval": false
+    },
+    {
+      "name": "docs.write",
+      "actions": [
+        "write"
+      ],
+      "resources": [
+        {
+          "type": "prefix",
+          "value": "/workspace/docs"
+        }
+      ],
+      "maxCostMicrousd": 20000,
+      "requireApproval": true
+    }
+  ],
+  "denyTools": [
+    "shell.exec"
+  ],
+  "denyResources": [
+    {
+      "type": "prefix",
+      "value": "/workspace/docs/private"
+    }
+  ]
+}

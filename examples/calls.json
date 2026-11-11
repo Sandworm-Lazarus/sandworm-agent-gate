@@ -1,0 +1,47 @@
+[
+  {
+    "id": "read-1",
+    "tool": "docs.read",
+    "action": "read",
+    "resource": "/workspace/docs/guide.md",
+    "costMicrousd": 500,
+    "args": {
+      "query": "synthetic example"
+    }
+  },
+  {
+    "id": "write-1",
+    "tool": "docs.write",
+    "action": "write",
+    "resource": "/workspace/docs/draft.md",
+    "costMicrousd": 1000
+  },
+  {
+    "id": "unknown-1",
+    "tool": "web.fetch",
+    "action": "read",
+    "resource": "/workspace/docs/guide.md",
+    "costMicrousd": 500
+  },
+  {
+    "id": "traversal-1",
+    "tool": "docs.read",
+    "action": "read",
+    "resource": "/workspace/docs/../private/key.txt",
+    "costMicrousd": 500
+  },
+  {
+    "id": "budget-1",
+    "tool": "docs.read",
+    "action": "read",
+    "resource": "/workspace/docs/guide.md",
+    "costMicrousd": 15000
+  },
+  {
+    "id": "deny-1",
+    "tool": "docs.read",
+    "action": "read",
+    "resource": "/workspace/docs/private/secret.txt",
+    "costMicrousd": 500
+  }
+]

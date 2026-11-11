@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": "0.1.0",
+  "mode": "simulation-only",
+  "policySha256": "4b4bd9d6a38624c0212aa643a5f5637d1ed89f11fefe0fb5489e566368f44c3a",
+  "inputSha256": "dc33a1239a3e9a56a2ddc4853f6d93743f059532b88321a6de9aa7787f681d09",
+  "counts": {
+    "total": 6,
+    "allow": 1,
+    "review": 1,
+    "deny": 4
+  },
+  "rows": [
+    {
+      "sequence": 1,
+      "decision": "allow",
+      "reason": "ALLOW",
+      "toolSlot": 1,
+      "callSha256": "762f3f7a99cc01771dc727fe440e0f4d50b40120d3895d5d8d8fa782e160e38a",
+      "resourceSha256": "ffc3ef35b0f829674d17ec47760d222a3d29b69a11b2670e9dbc345a82b6366f"
+    },
+    {
+      "sequence": 2,
+      "decision": "review",
+      "reason": "REVIEW_WRITE",
+      "toolSlot": 2,
+      "callSha256": "cf345d18d5db25e9433a41b95c69913361133e3af494add2e37a59158d90c2f8",
+      "resourceSha256": "b3ff5725a71fd617d20100df66f0092cd6d06330b8004e61e13d7a0b6c199160"
+    },
+    {
+      "sequence": 3,
+      "decision": "deny",
+      "reason": "DENY_TOOL",
+      "toolSlot": null,
+      "callSha256": "7b87ad6402fd35a3d22c665aa7882af581278485694f712956f65f777a866c63",
+      "resourceSha256": "ffc3ef35b0f829674d17ec47760d222a3d29b69a11b2670e9dbc345a82b6366f"
+    },
+    {
+      "sequence": 4,
+      "decision": "deny",
+      "reason": "DENY_PATH",
+      "toolSlot": null,
+      "callSha256": "06dcb9ccabfc6d1dd3f2bd8a0b62b60bd2db5ab8a8f727c2eadc3a3ac79a77cc",
+      "resourceSha256": "24cbf0d43bc5caacbb40f261503b89cf1246e2d4f854976385278dd4c74c10c2"
+    },
+    {
+      "sequence": 5,
+      "decision": "deny",
+      "reason": "DENY_BUDGET",
+      "toolSlot": 1,
+      "callSha256": "b02f91c3167d3d34a5136b433e7377cfd410136a4a8b36b2d86296c411bbb157",
+      "resourceSha256": "ffc3ef35b0f829674d17ec47760d222a3d29b69a11b2670e9dbc345a82b6366f"
+    },
+    {
+      "sequence": 6,
+      "decision": "deny",
+      "reason": "DENY_EXPLICIT",
+      "toolSlot": 1,
+      "callSha256": "9bf209c107418cbd41a53cbf4c841daf0b540073e90e37ee5435493087719539",
+      "resourceSha256": "7efbfe59d7fe258a708b4de42119f49670150c8a8bd58787530da1cd3160bda0"
+    }
+  ]
+}
